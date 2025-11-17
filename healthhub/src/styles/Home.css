@@ -1,0 +1,77 @@
+.relative {
+  position: relative;
+  height: 100vh;
+}
+
+.block1 {
+  height: 45rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  width: 70rem;
+  margin: auto;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url('../assets/background.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.block1-content {
+  padding-top: 2.5rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.block1-content h4 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.block1-content h2 {
+  max-width: 16ch;
+  margin: auto;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+.block1-content h2 span {
+  color: #3b82f6;
+  /* Tailwind's blue-500 */
+}
+
+.block1-content p {
+  max-width: 55ch;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.block1-buttons {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 1s ease-out;
+}

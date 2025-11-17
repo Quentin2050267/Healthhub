@@ -1,0 +1,96 @@
+:root {
+  --brand-1: #327ef7;
+  --brand-2: #5e8ee8;
+  --brand-3: #2d3748;
+  --btn-primary-color: #edf2f7;
+  --text-primary: #2d3748;
+  --border-color: #cbd5e0;
+}
+
+.MessageContainer {
+  background-color: var(--btn-primary-color);
+}
+
+.Navbar {
+  background-color: var(--brand-1);
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 20px;
+}
+
+.Navbar-title {
+  color: #ffffff;
+}
+
+.Bubble {
+  background-color: #fff;
+  color: var(--brand-3);
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.Card {
+  background-color: #fff;
+  color: var(--brand-3);
+  margin: 4px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+
+  display: inline-block;
+
+}
+
+.CardText {
+  text-align: center;
+}
+
+.Btn {
+  margin: 4px 0;
+}
+
+.Composer-actions {
+  .IconBtn {
+    color: var(--brand-2);
+  }
+
+  .IconBtn.active {
+    color: var(--brand-3);
+    background-color: var(--brand-1);
+  }
+}
+
+.Message.right .Bubble {
+  background-color: var(--brand-2);
+  color: #fff;
+}
+
+.Message.left .Bubble {
+  text-align: left;
+}
+
+.Message.right .Bubble {
+  text-align: left;
+}
+
+.Composer-input {
+  border: 1px solid var(--border-color);
+}
+
+
+.full-screen-bot {
+  background-color: var(--brand-1);
+  position: fixed;
+  margin-top: 0px;
+  left: 0;
+  width: 100%;
+  height: 92vh;
+  overflow: hidden;
+}
+
+.Button:hover {
+  background-color: var(--brand-2);
+  color: #fff;
+}

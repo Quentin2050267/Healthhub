@@ -1,0 +1,173 @@
+.header-container {
+  display: flex;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+  transition: transform 0.3s ease;
+}
+
+.logo-container:hover img {
+  transform: scale(1.2);
+}
+
+.navigation-links {
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-item {
+  color: #333;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-item.active {
+  color: #0056b3;
+}
+
+.nav-item:hover {
+  color: #0056b3;
+  transform: scale(1.2);
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.login-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-links a {
+  
+  padding: 8px 16px;
+  /* border: 1px solid #007bff; */
+  color: #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.login {
+  margin-right: 10px;
+}
+
+.app-header {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-container img {
+  width: 35px;
+  margin-right: 0.5rem;
+}
+
+.logo-container span {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  /* blue-700 */
+}
+
+.navigation-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.navigation-links .nav-item {
+  text-decoration: none;
+  color: #1f2937;
+  /* gray-800 */
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-links .nav-item.active {
+  color: #3b82f6;
+  /* blue-500 */
+  border-bottom: 2px solid #3b82f6;
+}
+
+.navigation-links .nav-item i {
+  margin-right: 0.5rem;
+}
+
+.auth-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: #1d4ed8;
+  /* blue-600 */
+  border: 1px solid #1d4ed8;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.auth-links a:hover {
+  background-color: #1d4ed8;
+  color: white;
+  border-color: transparent;
+}
+
+#dropdown-basic {
+  background-color: #007bff;
+  color: white;
+}
+
+#dropdown-basic:hover {
+  background-color: #0056b3;
+}
+
+.dropdown-item {
+  display: flex;
+  color: #007bff;
+  border: none;
+}
+
+
+.accessible-reading {
+  display: inline-flex;
+  align-items: center;
+  color: #1d4ed8; 
+  background-color: rgb(244, 247, 255);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none; 
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+

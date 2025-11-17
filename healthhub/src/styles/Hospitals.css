@@ -1,0 +1,91 @@
+.hospitals-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hospital-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.department-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.department-icon {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.department-title {
+    font-size: 24px;
+    display: flex;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.hospital-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.hospital-cards-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hospital-cards-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+
+.hospital-card {
+    flex: 0 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 310px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+}
+
+.hospital-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.hospital-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hospital-address,
+.hospital-phone {
+    margin-bottom: 5px;
+}

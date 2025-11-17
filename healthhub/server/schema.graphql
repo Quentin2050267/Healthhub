@@ -1,0 +1,79 @@
+scalar GraphQLDate
+
+
+type Hospital {
+  _id: ID!
+  name: String!
+  city: String!
+  area: String!
+  address_zh: String!
+  address_en: String!
+  phone: String!
+  intro: String!
+  departments_en: [String]!
+  departments_zh: [String]!
+  img_url: String!
+}
+
+
+type Query {
+  hospitalsByDepartment(department: String!): [Hospital]
+  getAllHospitals: [Hospital]
+  hospitalsByName(name: String!): [Hospital]
+}
+
+type Blog {
+  _id: ID
+  id: Int
+  title: String
+  content: String
+  author: String
+  publication_date: String
+  tag: String
+}
+
+input BlogInput {
+  id: Int!
+  title: String!
+  content: String!
+  author: String!
+  publication_date: String
+  tag: String!
+}
+
+type Record {
+  _id: ID
+  userEm: String!
+  Disease: String!
+  Symptoms: String!
+  Medications: String!
+  Duration: String!
+  Hospital: String!
+  Clinic: String!
+}
+
+input RecordInput {
+  userEm: String!
+  Disease: String!
+  Symptoms: String!
+  Medications: String!
+  Duration: String!
+  Hospital: String!
+  Clinic: String!
+}
+
+type Query {
+  blogs: [Blog]
+  records: [Record]
+  searchRecords(keyword: String!): [Record]
+  searchBlogs(keyword: String!): [Blog]
+  }
+
+type Mutation {
+  createBlog(input: BlogInput!): Blog
+  addRecords(input: [RecordInput!]!): [Record]
+  addOneRecord(input: RecordInput!): Record
+  deleteRecord(id: ID!): Boolean
+}
+
+

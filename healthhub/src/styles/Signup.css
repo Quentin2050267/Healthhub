@@ -1,0 +1,156 @@
+/* Signup.css */
+.signup-section {
+    background-color: #f8fafc;
+    padding: 2rem 0;
+    min-height: 100vh;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 26rem;
+    justify-content: center;
+    padding: 1.5rem;
+    margin: 1.75rem auto;
+    height: 75vh;
+}
+
+.signup-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.signup-logo img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.signup-card {
+    width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.signup-card-content {
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.signup-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #1f2937;
+    line-height: 1.25;
+    letter-spacing: 0.025em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.confirm-password {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1f2937;
+    text-align: left;
+}
+
+.signup-form input {
+    background-color: #f1f5f9;
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.625rem;
+}
+
+.signup-form .password-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    color: #9ca3af;
+    cursor: pointer;
+}
+
+.signup-form .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.signup-form .forgot-password {
+    font-size: 0.875rem;
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.signup-form .submit-button {
+    width: 100%;
+    color: #ffffff;
+    background-color: #007bff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-form .submit-button:hover {
+    background-color: #0056b3;
+}
+
+.signup-form .signup-link {
+    font-size: 0.875rem;
+    font-weight: 200;
+    color: #6b7280;
+    text-align: left;
+}
+
+.signup-form .signup-link a {
+    font-weight: 400;
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.first-name,
+.last-name {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.last-name {
+    margin-right: 0;
+}
