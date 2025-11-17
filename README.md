@@ -402,12 +402,3 @@ Leveraging the foundational code from Nacto-Care allowed us to accelerate the de
         
 
 
-## Contributors
-
-- **Qin Tian** - Students of IT5007, help with both frontend and backend.
-- **Xu Yi** - Students of IT5007, help with both frontend and backend.
-
-## Presentation
-[![Watch Our Presentation](https://res.cloudinary.com/marcomontalbano/image/upload/v1732464780/video_to_markdown/images/youtube--rajGiJ2Ceck-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=rajGiJ2Ceck "Watch Our Presentation")
-<!-- ## License
-*[Include your project’s license information here]* -->
