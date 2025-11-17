@@ -1,15 +1,3 @@
-# Important Links
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/eD9oPTLm)
-
-
-<!-- ## Preliminary Website Introduction & Frontend Design
-
-The preliminary website introduction and frontend design can be viewed in the following documents:
-
-- [Step 1 Design (PPTX)](step1design.pptx)
-- [Design Figma (PDF)](DesignFigma.pdf) -->
-
 # HealthHub: A website caring for the elder
 
 <p align="left">
