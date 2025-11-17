@@ -32,8 +32,7 @@ Our website is designed to assist elderly individuals in managing their healthca
 - [Implementation](#implementation)
 - [Misc Software Engineering Aspect](#misc-software-engineering-aspect)
 - [Novel Features](#novel-features)
-- [Contributors](#contributors)
-- [Presentation](#presentation)
+
 
 ## General
 
